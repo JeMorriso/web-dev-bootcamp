@@ -1,0 +1,64 @@
+body {
+    background: #f5d9df;
+    font-family: "Nunito", sans-serif;
+}
+
+/* here we are applying CSS margin because bootstrap isn't really built for fine tweaks */
+.content {
+    margin-top: 100px;
+}
+
+.blurb h2 {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.25rem;
+}
+
+.blurb p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+/* apply red color when hover over nav-link with mouse */
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100; 
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(222,192,222);
+    /* when this class gets toggled on, transition takes effect */
+    transition: background 750ms;
+}
+
+/* CSS media query */
+    /* what this does is apply the CSS styling when max width of screen falls below 1200px */
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}

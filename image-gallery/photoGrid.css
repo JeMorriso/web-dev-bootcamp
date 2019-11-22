@@ -1,0 +1,25 @@
+img {
+    /* %age of body */
+    width: 30%;
+    /* float removes whitespace that default html elements have when they are abutted against one another */
+        /* this allows us to add our own custom amount of whitespace */
+    float: left;
+    /* want 3 elements together (each 30%) on one row with 10% whitespace: 10/6 = 1.66 */
+        /* total should add up to 100%: */
+        /* (1.66*2 + 30)*3 = 100 */
+        /* divide by 6 because each side has margin */
+    margin: 1.66%;
+}
+
+p {
+    font-family: raleway;
+    font-size: 28px;
+    font-weight: 800;
+    margin-left: 1.66%;
+    text-transform: uppercase;
+    
+    /* styling the bottom border to match the images */
+    border-bottom: solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 20px;
+}
